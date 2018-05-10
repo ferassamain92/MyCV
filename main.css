@@ -35,15 +35,15 @@ p ul{
 	margin-left: 2%;
 }
 img.small {
-	width: 100%;
+	width: 90%;
 	height: 50%;
 	border: 10px solid black;
-	margin-bottom: 5%;
+	margin: 5% 0% 5% 5%;
 }
 .format{
-	margin: 0px 10px 10px 20px;
 	width: 90%;
 	text-align: left;
+	margin-left: 5%;	
 }
 
 .third{
