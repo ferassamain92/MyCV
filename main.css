@@ -36,14 +36,14 @@ p ul{
 }
 img.small {
 	width: 90%;
-	height: 50%;
+	height: 45%;
 	border: 10px solid black;
 	margin: 5% 0% 5% 5%;
 }
 .format{
 	width: 90%;
 	text-align: left;
-	margin-left: 5%;	
+	margin-left: 5%;
 }
 
 .third{
@@ -69,5 +69,8 @@ img.small {
 .third ul p{
 	font-size: 15px;
 	: 10px;
+}
+.third a{
+	color: black;
 }
 
