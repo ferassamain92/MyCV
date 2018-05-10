@@ -3,6 +3,7 @@ body{
 }
 .first{
      width:100%;
+	 height: 5%;
      position:absolute;
      border:1px solid black;
 	 background-color: #e6f2ff;
@@ -27,17 +28,17 @@ p ul{
 .second{
     border:1px dashed black;
 	background-color: #c68c53;
-    width:17%;
-    height:620px;
+    width:18%;
+    height:65%;
 	position: absolute;
-    top: 50px;
-	margin-left: 10px;
+    top: 7%;
+	margin-left: 2%;
 }
 img.small {
-	width: 300px;
-	height: 300px;
-	margin: 10px 10px;
+	width: 100%;
+	height: 50%;
 	border: 10px solid black;
+	margin-bottom: 5%;
 }
 .format{
 	margin: 0px 10px 10px 20px;
@@ -48,9 +49,9 @@ img.small {
 .third{
 	border:1px dashed black;
 	width:60%;
-	height:620px;
-	top: 50px;
-	margin-left: 400px;
+	height:65%;
+	top: 7%;
+	margin-left: 25%;
 	position: absolute;
 	background-color: #8c8c8c;
 	color: white;
