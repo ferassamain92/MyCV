@@ -18,3 +18,18 @@ body{
 .container p{
 	font-style: italic; 
 }
+img.smallml{
+	width: 20%;
+	height: 45%;
+	margin: -11% 0% 0% 30%;
+}
+img.smallml2{
+		width: 20%;
+	height: 45%;
+	margin: -13% 0% 0% 60%;
+}
+.container2{
+	background-color: white;
+	border: 3px solid black;
+	height: 300px;
+}
