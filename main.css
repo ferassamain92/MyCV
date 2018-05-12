@@ -1,12 +1,14 @@
 body{
-	
+	padding: 0;
+	margin: 0;
 }
 .first{
      width:100%;
-	 height: 5%;
+	 height: 4%;
      position:absolute;
      border:1px solid black;
 	 background-color: #e6f2ff;
+	 margin: 0;
  }
  nav ul{
 	margin: 0;
@@ -34,11 +36,11 @@ p ul{
     top: 7%;
 	margin-left: 2%;
 }
-img.small {
-	width: 90%;
+img.first {
+	width: 80%;
 	height: 45%;
 	border: 10px solid black;
-	margin: 5% 0% 5% 5%;
+	margin: 5% 5% 5% 5%;
 }
 .format{
 	width: 90%;
