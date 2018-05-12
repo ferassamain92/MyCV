@@ -30,7 +30,7 @@ p ul{
 .second{
     border:1px dashed black;
 	background-color: #ff9900;
-    width: 20%;
+    width: 350px;
     height:600px;
 	position: absolute;
 	top: 50px;
@@ -49,11 +49,11 @@ img.small {
 }
 .third{
 	border:1px dashed black;
-	width:1200px;
+	width:600px;
 	height:600px;
 	position: absolute;
-	left: 500px;
-	top: 100px;
+	left: 400px;
+	top: 50px;
 	background-color: #8c8c8c;
 	color: white;
 	padding: 30px;
@@ -63,7 +63,7 @@ img.small {
 	margin-left: 20px;
 }
 .third ul{
-	padding: 50px;
+	padding: 0px;
 	list-style-type: none;
 	font-size: 25px;
 }
