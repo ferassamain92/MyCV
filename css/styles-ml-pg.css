@@ -1,5 +1,4 @@
 body{
-	background-color: #e6e6e6;
 	font-family: arial;
 	margin: 0;
 	padding: 0;
@@ -7,6 +6,7 @@ body{
 .container{
 	background-color: white;
 	border: 3px solid black;
+	overflow: hidden;
 }
 .one{
 	width: 20%;
@@ -14,19 +14,20 @@ body{
 	padding: 20px;
 	border: 3px solid black;
 	margin: 1%;
+	overflow: hidden;
+	float: left;
 }
 .container p{
 	font-style: italic; 
 }
-img.smallml{
+img.img1{
 	width: 20%;
-	height: 45%;
-	margin: -11% 0% 0% 30%;
+	float: left;
+	margin: 1%;
 }
-img.smallml2{
-		width: 20%;
-	height: 45%;
-	margin: -13% 0% 0% 60%;
+img.img2{
+	width: 20%;
+	margin: 1%;
 }
 .container2{
 	background-color: white;
