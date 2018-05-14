@@ -4,6 +4,7 @@ body{
 	background-color: white;
 	background-image: url("./img/backgroundimage.jpg");
 	font-family: arial;
+	overflow: auto;
 }
 header{
      width:100%;
