@@ -4,7 +4,7 @@ body{
 	padding: 0;
 }
 .container{
-	background-color: white;
+	background-color: #b30000;
 	border: 3px solid black;
 	overflow: hidden;
 }
@@ -31,6 +31,29 @@ img.img2{
 }
 .container2{
 	background-color: white;
-	border: 3px solid black;
-	height: 300px;
+	text-align: center;
+	margin-top: 20px;
+}
+.content{
+	padding: 30px;
+	background-color: white;
+	float: left;
+}
+.content ul{
+	line-height: 2;	
+}
+.articles{
+	background-color: #000066;
+	color: white;
+	width: 50%;
+	float: right;
+	margin-right: 100px;
+}
+.articles h3{
+	color: white;
+	font-size: 20px;
+	background-color: #000066;
+	border: 2px solid black;
+	text-align: center;
+	margin: auto;
 }
