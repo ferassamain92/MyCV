@@ -1,12 +1,25 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+<title>Photo Gallery</title>
 <style>
+body{
+	background-color: grey;
+}
+div.album{
+	margin: auto;
+	overflow: hidden;
+	width: 50%;
+	border: 5px solid #ccc;
+	background-color: #0069cc;
+}
 div.gallery {
     margin: 5px;
-    border: 1px solid #ccc;
+    border: 2px solid black;
     float: left;
-    width: 180px;
+    width: 48%;
+	background-color: #cce6ff;
+	overflow: hidden;
 }
 
 div.gallery:hover {
@@ -14,79 +27,64 @@ div.gallery:hover {
 }
 
 div.gallery img {
+	position: relative;
+	float: left;
     width: 100%;
-    height: auto;
+    height: 350px;
+	background-position: 50% 50%;
 }
 
 div.desc {
-    padding: 15px;
+	margin-top: 25%;
     text-align: center;
+	font-style: italic;
+	font-weight: bold;
 }
 </style>
 </head>
 <body>
+<div class="album">
+	<div class="gallery">
+	  <a target="_blank" href="./img/RamosMessi.png">
+		<img src="./img/RamosMessi.png">
+	  </a>
+	  <div class="desc">Ramos & Messi Classico May 6th 2018 Score 2-2</div>
+	</div>
 
-<div class="gallery">
-  <a target="_blank" href="./img/RamosMessi.png">
-    <img src="./img/RamosMessi.png" alt="" width="300" height="200">
-  </a>
-  <div class="desc">Ramos & Messi Classico May 6th 2018 Score 2-2</div>
-</div>
+	<div class="gallery">
+	  <a target="_blank" href="./img/20171027_180032.jpg">
+		<img src="./img/20171027_180032.jpg">
+	  </a>
+	  <div class="desc">Fall, red maple leaf at the doorstep</div>
+	</div>
 
-<div class="gallery">
-  <a target="_blank" href="./img/20171027_180032.jpg">
-    <img src="./img/20171027_180032.jpg" alt="" width="300" height="200">
-  </a>
-  <div class="desc">Fall, red maple leaf at the doorstep</div>
-</div>
+	<div class="gallery">
+	  <a target="_blank" href="./img/IMG_20171111_002128_073.jpg">
+		<img src="./img/IMG_20171111_002128_073.jpg">
+	  </a>
+	  <div class="desc">Real Madrid</div>
+	</div>
 
-<div class="gallery">
-  <a target="_blank" href="./img/IMG_20171111_002128_073.jpg">
-    <img src="./img/IMG_20171111_002128_073.jpg" alt="" width="600" height="400">
-  </a>
-  <div class="desc">Real Madrid</div>
-</div>
+	<div class="gallery">
+	  <a target="_blank" href="./img/IMG_20171114_155559_981.jpg">
+		<img src="./img/IMG_20171114_155559_981.jpg">
+	  </a>
+	  <div class="desc">Debut</div>
+	</div>
 
-<div class="gallery">
-  <a target="_blank" href="./img/IMG_20171114_155559_981.jpg">
-    <img src="./img/IMG_20171114_155559_981.jpg" alt="" width="600" height="400">
-  </a>
-  <div class="desc">Debut</div>
-</div>
+	<div class="gallery">
+	  <a target="_blank" href="./img/IMG_20180106_185155_392.jpg">
+		<img src="./img/IMG_20180106_185155_392.jpg">
+	  </a>
+	  <div class="desc">Sheraton Grand Doha Resort Christmas 2017 (1)</div>
+	</div>
 
-<div class="gallery">
-  <a target="_blank" href="./img/IMG_20180106_185155_392.jpg">
-    <img src="./img/IMG_20180106_185155_392.jpg" alt="" width="600" height="400">
-  </a>
-  <div class="desc">Beach1</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="./img/IMG_20180106_185515_074.jpg">
-    <img src="./img/IMG_20180106_185515_074.jpg" alt="" width="600" height="400">
-  </a>
-  <div class="desc">Beach2</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="./img/Screenshot_2018-05-04-01-32-25.jpg">
-    <img src="./img/Screenshot_2018-05-04-01-32-25.jpg" alt="" width="600" height="400">
-  </a>
-  <div class="desc"></div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="./img/.jpg">
-    <img src="./img/.jpg" alt="" width="600" height="400">
-  </a>
-  <div class="desc"></div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="./img/.jpg">
-    <img src="./img/.jpg" alt="" width="600" height="400">
-  </a>
-  <div class="desc"></div>
+	<div class="gallery">
+	  <a target="_blank" href="./img/IMG_20180106_185515_074.jpg">
+		<img src="./img/IMG_20180106_185515_074.jpg">
+	  </a>
+	  <div class="desc">Sheraton Grand Doha Resort Christmas 2017 (2)</div>
+	</div>
 </div>
 
 </body>
