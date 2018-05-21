@@ -1,10 +1,10 @@
-body{
+*{
 	margin: 0;
 	padding: 0;
-	background-color: white;
-	background-image: url("./img/backgroundimage.jpg");
+}
+body{
+	height: 100%;
 	font-family: arial;
-	overflow: visible;
 }
 header{
      width:100%;
@@ -29,37 +29,36 @@ nav ul li a{
 p ul{
 	margin-top: 0px;
 	width: 90%;
+	
+}
+.content{
+	height: 100%;
+	padding: 100px;
 }
 .container1{
     border:1px solid black;
 	background-color: #ebf0fa;
     width: 15%;
-	margin: 2%;
 	float: left;
-	overflow: hidden;
+	margin-right: 5%;
 }
 img.pic{
 	width: 80%;
 	margin: 10% 10%;
 	border: 2px solid black;
 }
-.format-paragraph{
-	width: 90%;
-	text-align: left;
-	margin-left: 5%;
-}
 .container2{
 	width:50%;
 	background-color: #ebf0fa;
 	border:1px solid black;
-	padding: 0;
+	padding: 100px;
 	overflow: hidden;
-	margin-top: 2%;
+	margin-bottom: 5%;
 }
 .container2 h1{
 	font-size: 80px;
-	margin: auto;
 	text-align: center;
+	margin-bottom: 50px;
 }
 .container2 ul{
 	padding: 0px;
@@ -74,20 +73,40 @@ img.pic{
 .container2 a{
 	color: black;
 }
-.boxes{
+footer{
 	width: 100%;
 	position: fixed;
-	bottom:0;
+	bottom: 0;
 	text-align: center;
 	background-color: #ffff1a;
 	border-top: 3px solid black;
-	overflow: hidden;
 }
-.boxes h1{
+footer h1{
+	float: left;
 	font-size: 15px;
 	margin: 0;
 }
-.boxes img{
+footer img{
+	float: left;
 	width: 3%;
-	padding: 15px;
+	padding: 0px;
+	margin: 15px;
+	border: 1px solid black;
 }
+
+footer ul li{
+	background-color: #ffff1a;
+	list-style-type: none;
+	padding: 5px;
+	
+}
+footer ul li a{
+	color: blue;
+	font-weight: bold;
+}
+.contact{
+	padding: 10px;
+	float: right;
+	text-align: left;
+}
+
