@@ -34,43 +34,40 @@ p ul{
 .content{
 	height: 100%;
 	padding: 100px;
-}
-.container1{
-    border:1px solid black;
-	background-color: #ebf0fa;
-    width: 15%;
-	float: left;
-	margin-right: 5%;
+	
 }
 img.pic{
-	width: 80%;
-	margin: 10% 10%;
+	width: 15%;
+	padding: 10px;
+	margin-right: 5%;
+	float: left;
 	border: 2px solid black;
-}
-.container2{
-	width:50%;
 	background-color: #ebf0fa;
-	border:1px solid black;
-	padding: 100px;
+}
+.container{
+	width:50%;
+	background-color: #d9b38c;
+	border:2px solid black;
 	overflow: hidden;
 	margin-bottom: 5%;
 }
-.container2 h1{
+.container h1{
 	font-size: 80px;
 	text-align: center;
-	margin-bottom: 50px;
+	margin:0 px;
+	border:1px solid black;
+	background-color: #26004d;
+	color: white;
 }
-.container2 ul{
-	padding: 0px;
-	width: 90%;
+.container p{
+	padding: 20px;
+}
+.container ul{
 	margin-left: 5%;
-	list-style-type: none;
-	font-size: 25px;
+	padding: 20px;
+	line-height: 25px;
 }
-.container2 ul p{
-	font-size: 15px;
-}
-.container2 a{
+.container a{
 	color: black;
 }
 footer{
@@ -88,24 +85,26 @@ footer h1{
 }
 footer img{
 	float: left;
-	width: 3%;
+	width: 2%;
 	padding: 0px;
 	margin: 15px;
 	border: 1px solid black;
 }
-
+footer ul{
+		display: inline;
+}
 footer ul li{
 	background-color: #ffff1a;
 	list-style-type: none;
 	padding: 5px;
-	
+	display: inline-block;
 }
 footer ul li a{
 	color: blue;
 	font-weight: bold;
 }
 .contact{
-	padding: 10px;
+	margin-top: 3%;
 	float: right;
 	text-align: left;
 }
