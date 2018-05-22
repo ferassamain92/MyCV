@@ -20,19 +20,16 @@ body{
 .container p{
 	font-style: italic; 
 }
-img.img1{
-	width: 20%;
-	float: left;
-	margin: 1%;
-}
-img.img2{
-	width: 20%;
-	margin: 1%;
+img.img{
+	width: 50%;
+	height: 300px;
+	margin: 1% 1% 1% 15%;
 }
 .container2{
 	background-color: white;
 	text-align: center;
-	margin-top: 20px;
+	margin: 20px;
+	font-style: italic;
 }
 .content{
 	padding: 30px;
@@ -42,23 +39,28 @@ img.img2{
 .content ul{
 	line-height: 2;	
 }
+.content ul li a{
+	color: blue;
+}	
 .articles{
-	background-color: #000066;
+	background-color: #8080ff;
 	color: white;
 	width: 50%;
 	float: right;
 	margin-right: 100px;
+	border: 2px dashed black;
 }
 .articles h3{
+	background-color: #0000ff;
+	border-bottom: 2px solid black;
+	padding: 15px;
 	color: white;
 	font-size: 20px;
-	background-color: #000066;
-	border: 2px solid black;
 	text-align: center;
 	margin: auto;
 }
 .articles ol li{
-	color: white;
+	line-height: 2;
 }
 .articles ol li a{
 	color: white;
