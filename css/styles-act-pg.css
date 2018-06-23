@@ -1,0 +1,67 @@
+body{
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	background-color: black;
+	border: 3px solid black;
+	overflow: hidden;
+}
+.one{
+	width: 20%;
+	background-color: white;
+	padding: 20px;
+	margin: 1%;
+	margin-left: 38.75%;
+	text-align: center;
+}
+.container p{
+	font-style: italic; 
+}
+img.img{
+	width: 50%;
+	height: 300px;
+	margin: 1% 1% 1% 15%;
+}
+.container2{
+	background-color: white;
+	text-align: center;
+	margin: 20px;
+	font-style: italic;
+}
+.content{
+	padding: 30px;
+	background-color: white;
+	float: left;
+}
+.content ul{
+	line-height: 2;	
+}
+.content ul li a{
+	color: blue;
+}	
+.articles{
+	background-color: LightGray;
+	color: white;
+	width: 50%;
+	float: right;
+	margin-top: 10px;
+	margin-right: 100px;
+	border: 2px dashed black;
+}
+.articles h3{
+	background-color: black;
+	border-bottom: 2px solid black;
+	padding: 15px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	margin: auto;
+}
+.articles ol li{
+	line-height: 2;
+}
+.articles ol li a{
+	color: white;
+}

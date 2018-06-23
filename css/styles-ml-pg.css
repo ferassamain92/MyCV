@@ -14,8 +14,7 @@ body{
 	padding: 20px;
 	border: 3px solid black;
 	margin: 1%;
-	overflow: hidden;
-	float: left;
+	margin-left: 38.75%;
 }
 .container p{
 	font-style: italic; 
@@ -47,6 +46,7 @@ img.img{
 	color: white;
 	width: 50%;
 	float: right;
+	margin-top: 10px;
 	margin-right: 100px;
 	border: 2px dashed black;
 }
